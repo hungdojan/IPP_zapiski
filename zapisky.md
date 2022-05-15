@@ -777,7 +777,7 @@ data Strom = List
 - moznost implementace generickych algoritmu
   - podpora polymorfismu na urovni funkci
   - pouziti *typovych promennych* misto kontretni promenne
-  - konkretni typ se doplni za promenou az podle parametru aplikace
+    - konkretni typ se doplni za promenou az podle parametru aplikace
 #### Ridici struktury
 - zakladni struktura: funkce
   - funkce lze vnorovat, lze tvorit lokalni funkce
@@ -800,7 +800,8 @@ data Strom = List
 - netypovane $\rightarrow$ kontroluji se na posledni chvili
 - typovane $\rightarrow$ striktni typova kontrola
 - typove tridy
-  - shlukuji funkce a operatory do skupin
+  - shlukuji funkce a operatory do skupin - jsou vazany spolecnym jmenovatelem
+  - muzeme pridat typ do tridy, pokud typ ma algoritmy na vsechny operace ve tride
 
 ### Logicke programovaci jazyky
 - zakladni struktura: predikaty, ktere pracuji nad atomy, termy ci predikaty
